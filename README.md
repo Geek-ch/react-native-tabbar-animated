@@ -7,8 +7,8 @@ the animated of tabbar
 ## github 仓库地址
  [react-native-tabbar-animated](https://github.com/Geek-ch/react-native-tabbar-animated)
 
-## gif 项目中的示范
-/Users/ch/Demo/React Native/react-native-tabbar-animated/screenshots/animated.gif
+## gif 项目中的效果
+[效果](https://github.com/Geek-ch/react-native-tabbar-animated/blob/master/screenshots/animated.gif)
 
 ## install 安装
  `npm install react-native-tabbar-animated`
