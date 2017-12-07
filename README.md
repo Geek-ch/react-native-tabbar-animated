@@ -23,38 +23,40 @@ the animated of tabbar
   demo：
 ```
 Main: {
-screen: Mall,
-navigationOptions: ({screenProps}) =>({
-title: '商城',
-tabBarLabel:({ focused }) =>( focused?'置顶':'商城'),
-tabBarIcon: ({ tintColor,focused }) =>
-( focused? <CustomAnimation animationStyle={'linear'} imageAddress={require('../img/nav-bar-mall-selected.png')} />
-:
-<Image source={!focused ? require('../img/nav-bar-mall.png') : require('../img/nav-bar-mall-selected.png') }
-style={ styles.icon }
-/>
-)
+    screen: Mall,
+    navigationOptions: ({screenProps}) =>({
+        title: '商城',
+        tabBarLabel:({ focused }) =>( focused?'置顶':'商城'),
+        tabBarIcon: ({ tintColor,focused }) =>
+            ( focused? <CustomAnimation animationStyle={'linear'} imageAddress={require('../img/nav-bar-mall-selected.png')} />
+            :
+            <Image source={!focused ? require('../img/nav-bar-mall.png') : require('../img/nav-bar-mall-selected.png') }
+            style={ styles.icon }
+            />
+            )
 
-}),
+    }),
 },
 
 ```
 
 ## api 方法
-* url:
-{uri: 'https://s3.amazonaws.com/media-p.slid.es/uploads/alexanderfarennikov/images/1198519/reactjs.png'} //线上图片
 
-* imageAddress
-imageAddress={require('../img/nav-bar-me.png')} //本地图片
+| Prop | Description | Default |
+|---|---|---|
+|**`url`**|线上图片链接 |*{uri: 'https://s3.amazonaws.com/media-p.slid.es/uploads/alexanderfarennikov/images/1198519/reactjs.png'}*|
+|**`imageAddress`**|本地图片 |`{require('../img/nav-bar-me.png')}`|
+|**`animationStyle`**| 跳动,伸缩 |`spring`|
+|**`animationStyle`**| 旋转 |`spin`|
+|**`animationStyle`**| 上下移动 |`linear`|
+|**`junpTime`**| 跳动持续时间 |`4000`|
+|**`spinTime`**| 旋转持续时间 |*4000*|
+|**`linearTime`**|移动持续时间 |*4000*|
+|**`imageStyle`**| 图片的样式 |*None*|
+|**`style`**|背景view样式 |`None`|
+|**`imgOnPress`**|图片点击方法 |`None`|
 
-* animationStyle 动画样式:
-    spring放大缩小
-    spin旋转
-    linear移动
-    
-* junpTime 弹跳时间
-* spinTime 旋转时间
-* linearTime 移动时间
+
 
 方法都是可选，根据需要加入
 
