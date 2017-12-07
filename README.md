@@ -4,8 +4,11 @@ the animated of tabbar
 ## 前言
  该组件主要是做一个小动画，目前用在tabbar上面，当然其他地方也可以用，可能其他地方适配不太好.
  
- ## github 仓库地址
+## github 仓库地址
  [react-native-tabbar-animated](https://github.com/Geek-ch/react-native-tabbar-animated)
+
+## gif 项目中的示范
+/Users/ch/Demo/React Native/react-native-tabbar-animated/screenshots/animated.gif
 
 ## install 安装
  `npm install react-native-tabbar-animated`
@@ -39,9 +42,17 @@ style={ styles.icon }
 ```
 
 ## api 方法
-* url:{uri: 'https://s3.amazonaws.com/media-p.slid.es/uploads/alexanderfarennikov/images/1198519/reactjs.png'} //线上图片
-* imageAddress={require('../img/nav-bar-me.png')} //本地图片
-* animationStyle 动画样式: spring放大缩小  spin旋转  liner移动
+* url:
+{uri: 'https://s3.amazonaws.com/media-p.slid.es/uploads/alexanderfarennikov/images/1198519/reactjs.png'} //线上图片
+
+* imageAddress
+imageAddress={require('../img/nav-bar-me.png')} //本地图片
+
+* animationStyle 动画样式:
+    spring放大缩小
+    spin旋转
+    linear移动
+    
 * junpTime 弹跳时间
 * spinTime 旋转时间
 * linearTime 移动时间

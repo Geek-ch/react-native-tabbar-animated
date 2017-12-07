@@ -1,6 +1,6 @@
 {
   "name": "react-native-tabbar-animated",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "the animated of react-native-tabbar",
   "main": "index.js",
   "scripts": {
