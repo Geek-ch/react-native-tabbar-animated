@@ -1,0 +1,25 @@
+{
+  "name": "react-native-tabbar-animated",
+  "version": "1.0.0",
+  "description": "the animated of react-native-tabbar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geek-ch/react-native-tabbar-animated.git"
+  },
+  "keywords": [
+    "react-native-tabbar-animated",
+    "react-native-animated",
+    "react-native-动画",
+    "rn动画"
+  ],
+  "author": "chenhe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geek-ch/react-native-tabbar-animated/issues"
+  },
+  "homepage": "https://github.com/Geek-ch/react-native-tabbar-animated#readme"
+}
