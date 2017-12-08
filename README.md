@@ -54,7 +54,7 @@ Main: {
 |**`linearTime`**|移动持续时间 |*4000*|
 |**`imageStyle`**| 图片的样式 |*None*|
 |**`style`**|背景view样式 |`None`|
-|**`imgOnPress`**|图片点击方法 |`None`|
+
 
 
 
